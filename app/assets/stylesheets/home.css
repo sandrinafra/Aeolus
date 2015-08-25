@@ -1,0 +1,281 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+#blur
+{
+	background: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1; 
+	left: 0;
+
+
+}
+
+/*barre de navigation*/
+
+#nav li
+{
+	display: inline-block;
+	text-transform: none;
+	padding-right: 30px;
+	color: #c5c5c5;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 1px;
+	position: relative;
+	z-index: 4;
+}
+
+#nav ul
+{
+	position: relative;
+	text-align: center;
+	padding-top: 60px;
+	position: relative;
+	z-index: 4;
+}
+
+body
+{
+	background: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+}
+
+/*deux textes sous la nav*/
+
+#title_first
+{
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
+
+#title_first h1
+{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+	font-size: 75px;
+	color: white;
+	letter-spacing: 5px;
+	margin-top: 220px;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 4;
+}
+
+#title_first h6
+{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+	font-size: 17px;
+	letter-spacing: 2px;
+	margin-bottom: 240px;
+	color: white;
+	color: #c5c5c5;
+	position: relative;
+	z-index: 4;
+}
+
+/*texte au-dessus du bloc de trois photos*/
+
+#video
+{
+	width: 87%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index: 4;
+	padding-bottom: 15px;
+}
+
+#video h2
+{
+	display: inline-block;
+	margin-top: 55px;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 700;
+	color: white;
+	font-size: 26px;
+}
+
+#video h4
+{
+	display: inline-block;
+	float:  right;
+	margin-top: 60px;
+	color: #c5c5c5;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 300;
+}
+
+/*les trois photos*/
+
+#img_video
+{
+	width: 87%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index: 4;
+
+}
+
+#one, #three
+{
+	width: 93%;
+}
+
+#two
+{
+	width: 87.2%;
+}
+
+
+#bloc_one
+{
+	width: 32.6%;
+	display: inline-block;
+	border-right: 1px solid rgba(220,220,220,0.2);
+	min-width: 300px;
+	border-top: 1px solid rgba(220,220,220,0.2);
+	vertical-align: top;
+	border-bottom: 1px solid rgba(220,220,220,0.2) ;
+	padding-top: 20px;
+}
+
+#bloc_two
+{
+	width: 34.8%;
+	display: inline-block;
+	border-right: 1px solid rgba(220,220,220,0.2);
+	text-align: center;
+	min-width: 300px;
+	border-top: 1px solid rgba(220,220,220,0.2);
+	vertical-align: top;
+	border-bottom: 1px solid rgba(220,220,220,0.2);
+	padding-top: 20px;
+
+}
+
+#bloc_three
+{
+	width: 32.6%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	min-width: 300px;
+	border-top: 1px solid rgba(220,220,220,0.2);
+	border-bottom: 1px solid rgba(220,220,220,0.2) ;
+	padding-top: 20px;
+
+}
+
+
+#bloc_three p
+{
+	margin-left: 23px;
+	text-align: left;
+}
+
+#bloc_two p
+{
+	text-align: left;
+	margin-left: 23px;
+}
+
+
+#img_video p
+{
+	color: white;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+#date h1
+{
+	color: white;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 700;
+	font-size: 22px;
+	position: relative;
+	z-index: 4;
+	width: 87%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid rgba(220,220,220,0.2) ;
+	margin-top: 70px;
+	padding-bottom: 15px;
+}
+
+/*la date des evenements
+*/
+
+
+table tr
+{
+	border-bottom: 1px solid rgba(220,220,220,0.2) ;
+
+}
+
+table
+{
+	width: 87%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	border-spacing: 0;
+	border-collapse: collapse;
+	z-index: 4;
+}
+
+.mois
+{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 400;
+	color: white;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.date
+{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 600;
+	color: white;
+	font-size: 20px;
+}
+
+.lieu
+{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 700;
+	color: #c5c5c5;
+	font-size: 16px;
+
+}
+
+.type
+{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 400;
+	color: #c5c5c5;
+	font-size: 17px;
+}
+
+
+

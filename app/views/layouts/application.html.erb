@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aeolus</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <% stylesheet_link_tag 'application', 'put any external link' %>
+
+
+</head>
+<body>
+<div id="nav">
+	<ul>
+		<a href="/"><li style="color:white;">HOME</li></a>
+		<a href="bio"><li>BIO</li></a>
+		<a href="photos"><li>PHOTOS</li></a>
+		<a href="music"><li>MUSIC</li></a>
+		<a href="videos"><li>VIDEOS</li></a>
+		<a href="news"><li>NEWS</li></a>
+		<a href="tour"><li>TOUR</li></a>
+		<a href="contact"><li>CONTACT</li></a>
+	</ul>	
+</div>
+<%= yield %>
+
+</body>
+</html>
