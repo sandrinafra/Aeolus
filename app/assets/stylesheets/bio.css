@@ -1,0 +1,197 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+
+
+
+#blur
+{
+	background: rgba(0,0,0,0.6);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1; 
+	left: 0;
+
+
+}
+
+#title
+{
+	width: 87%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid rgba(220,220,220,0.2);
+	position: relative;
+	z-index: 3;
+}
+#title h1
+{
+	color: white;
+	font-size: 70px;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 100;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	padding-bottom: 50px;
+	letter-spacing: 5px;
+
+}
+#title p
+{
+	color: white;
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 400;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+
+.image
+{
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+	z-index: 3;
+	position: relative;
+
+}
+
+.image img
+{
+	width: 100%;
+}
+
+#text
+{
+	width: 60%;
+	margin: auto;
+	color: white;
+	font-size: 18px;
+		z-index: 3;
+	position: relative;
+
+
+}
+#text p
+{
+	margin-top: 20px;
+}
+
+
+
+
+
+#three-bloc
+{
+	width: 87%; 
+	margin: auto;
+	position: relative;
+	z-index: 3;
+	padding-top: 60px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #c5c5c5;
+
+
+}
+.blocs
+{
+	width: 30%;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif; 
+	vertical-align: top;
+	min-width: 300px;
+	text-align: left;
+
+
+
+
+}
+
+#bloc_img
+{
+	width: 33%;
+	margin: 0 35px;
+}
+
+.blocs h1
+{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 30px;
+
+}
+
+.blocs img
+{
+	width: 100%;
+
+}
+
+.blocs h4 
+{
+	font-weight: 600;
+	margin-top: 30px;
+
+}
+
+#last p
+{
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing: 1px;
+	line-height: 30px;
+
+}
+
+#icone
+{
+	font-size: 20px;
+	width: 87%;
+	margin: auto;
+	text-align: center;
+	border-top: 1px solid rgba(220,220,220,0.2);
+	margin-top: 60px;
+	padding-top: 30px;
+	position: relative;
+	z-index: 3;
+
+
+
+
+}
+
+#icone a
+{
+	margin: 0 1%;
+	color: white;
+}
+
+#fin 
+{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 400;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+	letter-spacing: 1px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
