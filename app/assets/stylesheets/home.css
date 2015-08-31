@@ -17,6 +17,12 @@
 	top: 0;
 	z-index: 1; 
 	left: 0;
+}
+
+#main
+{
+	position: relative;
+	z-index: 2;
 
 
 }
@@ -29,12 +35,14 @@
 	text-transform: none;
 	padding-right: 30px;
 	color: #c5c5c5;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 15px;
 	letter-spacing: 1px;
 	position: relative;
-	z-index: 4;
+	z-index: 3;
+	font-family: 'Open Sans', sans-serif;
+
+
 }
 
 #nav ul
@@ -42,8 +50,7 @@
 	position: relative;
 	text-align: center;
 	padding-top: 60px;
-	position: relative;
-	z-index: 4;
+
 }
 
 body
@@ -53,6 +60,7 @@ body
 	background-position: center;
 	position: relative;
 	background-attachment: fixed;
+
 }
 
 /*deux textes sous la nav*/
@@ -60,34 +68,29 @@ body
 #title_first
 {
 	text-align: center;
-	position: relative;
-	z-index: 3;
+
 }
 
 #title_first h1
 {
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 300;
 	font-size: 75px;
 	color: white;
 	letter-spacing: 5px;
 	margin-top: 220px;
 	margin-bottom: 10px;
-	position: relative;
-	z-index: 4;
+
 }
 
 #title_first h6
 {
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 300;
 	font-size: 17px;
 	letter-spacing: 2px;
 	margin-bottom: 240px;
 	color: white;
 	color: #c5c5c5;
-	position: relative;
-	z-index: 4;
+
 }
 
 /*texte au-dessus du bloc de trois photos*/
@@ -97,8 +100,6 @@ body
 	width: 87%;
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;
-	z-index: 4;
 	padding-bottom: 15px;
 }
 
@@ -106,7 +107,6 @@ body
 {
 	display: inline-block;
 	margin-top: 55px;
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 700;
 	color: white;
 	font-size: 26px;
@@ -118,7 +118,6 @@ body
 	float:  right;
 	margin-top: 60px;
 	color: #c5c5c5;
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 300;
 }
 
@@ -129,8 +128,6 @@ body
 	width: 87%;
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;
-	z-index: 4;
 	text-align: center;
 
 }
@@ -203,7 +200,6 @@ body
 #img_video p
 {
 	color: white;
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 600;
 	padding: 10px 0;
 }
@@ -211,11 +207,8 @@ body
 #date h1
 {
 	color: white;
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 700;
 	font-size: 22px;
-	position: relative;
-	z-index: 4;
 	width: 87%;
 	margin-left: auto;
 	margin-right: auto;
@@ -239,15 +232,12 @@ table
 	width: 87%;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
 	border-spacing: 0;
 	border-collapse: collapse;
-	z-index: 4;
 }
 
 .mois
 {
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 400;
 	color: white;
 	padding-left: 10px;
@@ -256,7 +246,6 @@ table
 
 .date
 {
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 600;
 	color: white;
 	font-size: 20px;
@@ -264,7 +253,6 @@ table
 
 .lieu
 {
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 700;
 	color: #c5c5c5;
 	font-size: 16px;
@@ -273,7 +261,6 @@ table
 
 .type
 {
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 400;
 	color: #c5c5c5;
 	font-size: 17px;
@@ -289,21 +276,15 @@ table
 	width: 87%;
 	color: #c5c5c5;
 	font-size: 13px;
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 600;
-	position: relative;
-	z-index: 3;
 }
 
 #three-bloc
 {
 	width: 87%;
 	margin: auto;
-	position: relative;
-	z-index: 3;
 	padding-top: 60px;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
 	color: #c5c5c5;
 
 
@@ -312,7 +293,6 @@ table
 {
 	width: 30%;
 	display: inline-block;
-	font-family: 'Open Sans', sans-serif; 
 	vertical-align: top;
 	min-width: 300px;
 	text-align: left;
@@ -367,9 +347,8 @@ table
 	border-top: 1px solid rgba(220,220,220,0.2);
 	margin-top: 60px;
 	padding-top: 30px;
-	position: relative;
 	z-index: 3;
-
+	position: relative;
 
 
 
@@ -383,13 +362,10 @@ table
 
 #fin 
 {
-	font-family: 'Open Sans', sans-serif; 
 	font-weight: 400;
 	color: white;
 	font-size: 13px;
 	text-align: center;
-	position: relative;
-	z-index: 3;
 	letter-spacing: 1px;
 	margin-top: 50px;
 	margin-bottom: 50px;
