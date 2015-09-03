@@ -372,3 +372,147 @@ table
 
 }
 
+#audio_bar
+{
+	width: 100%;
+	line-height: 40px;
+	height: 40px;
+	background-color: #0c0c0c;
+	z-index: 3;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	border: 2px solid rgba();
+
+
+}
+#progres_bar
+{
+	background-color: rgba();
+	position: fixed;
+	bottom: 0;
+	left: 160px;
+	height: 40px;
+	width: 200px;
+	z-index: 3;
+}
+
+
+#previous
+{
+	display: inline-block;
+	background-color: black;
+	width: 40px;
+	color: white;
+	vertical-align: top;
+	float: left;
+
+}
+
+#play
+{
+	display: inline-block;
+	background-color: black;
+	color: white;
+	width: 40px;
+	vertical-align: top;
+	float: left;
+
+
+
+}
+
+
+#next
+{
+	display: inline-block;
+	background-color: black;
+	color: white;
+	width: 40px;
+	vertical-align: top;
+	float: left;
+
+
+}
+
+
+#photo
+{
+	width: 40px;
+	display: inline-block;
+	float: left;
+
+}
+
+#photo img
+{
+	width: 100%;
+
+}
+
+#titre
+{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	font-size: 10px;
+	padding-left: 10px;
+	color: white;
+	
+}
+#time
+{
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 10px;
+	padding-right: 10px;
+	color: white;
+
+
+}
+
+
+#son
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	color: white;
+	background-color: black; 
+	float: right;
+
+
+
+}
+
+#menu
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	color: white;
+	background-color: black;
+	float: right;
+
+
+
+
+}
+#retract
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20px;
+	color: white;
+	background-color: black;
+	float: right;
+
+
+
+
+}
+
+
+

@@ -1,3 +1,23 @@
+$retract = document.getElementById("retract");
+$previous= document.getElementById("previous");
+$next = document.getElementById("next");
+$photo = document.getElementById("photo");
+$titre = document.getElementById("titre");
+$menu = document.getElementById("menu");
+$son = document.getElementById("son");
+$time = document.getElementById("time");
+$next = document.getElementById("next");
+
+
+function retract()
+{
+	$previous.style.display = "none";
+	$next.style.display = "none";
+}
+
+
+
+
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
