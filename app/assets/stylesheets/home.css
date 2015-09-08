@@ -377,12 +377,10 @@ table
 	width: 100%;
 	line-height: 40px;
 	height: 40px;
-	background-color: #0c0c0c;
 	z-index: 3;
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	text-align: center;
 	border: 2px solid rgba();
 
 
@@ -395,7 +393,6 @@ table
 	left: 160px;
 	height: 40px;
 	width: 200px;
-	z-index: 3;
 }
 
 
@@ -406,22 +403,21 @@ table
 	width: 40px;
 	color: white;
 	vertical-align: top;
-	float: left;
+	text-align: center;
+
 
 }
 
-#play
+#play_h
 {
 	display: inline-block;
 	background-color: black;
 	color: white;
 	width: 40px;
 	vertical-align: top;
-	float: left;
-
-
-
+	text-align: center;
 }
+
 
 
 #next
@@ -431,9 +427,16 @@ table
 	color: white;
 	width: 40px;
 	vertical-align: top;
-	float: left;
+	text-align: center;
 
 
+
+}
+
+button
+{
+	position: relative;
+	z-index: 6;
 }
 
 
@@ -441,7 +444,6 @@ table
 {
 	width: 40px;
 	display: inline-block;
-	float: left;
 
 }
 
@@ -454,17 +456,19 @@ table
 #titre
 {
 	display: inline-block;
+	background-color: #0c0c0c;
 	vertical-align: top;
-	float: left;
 	font-size: 10px;
 	padding-left: 10px;
 	color: white;
+	width: 74.8%;
+
 	
 }
 #time
 {
-	float: right;
 	display: inline-block;
+	background-color: #0c0c0c;
 	vertical-align: top;
 	font-size: 10px;
 	padding-right: 10px;
@@ -481,10 +485,20 @@ table
 	width: 40px;
 	color: white;
 	background-color: black; 
-	float: right;
+	text-align: center;
 
 
 
+
+}
+#volume
+{
+	background-color: red;
+	height: 100px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 60px;
 }
 
 #menu
@@ -494,7 +508,8 @@ table
 	width: 40px;
 	color: white;
 	background-color: black;
-	float: right;
+	text-align: center;
+
 
 
 
@@ -507,11 +522,23 @@ table
 	width: 20px;
 	color: white;
 	background-color: black;
-	float: right;
+	text-align: center;
+	position: fixed;
 
 
 
 
+}
+
+#unroll
+{
+	display: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 20px;
+	color: white;
+	background-color: #373737;
+	text-align: center;
 }
 
 
